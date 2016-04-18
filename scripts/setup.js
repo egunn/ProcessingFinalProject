@@ -21,8 +21,8 @@ var isMouseOver = false;     //tracks whether mouse is over a particle
 //causes trouble otherwise)
 function preload() {
     table = loadTable("data/investments_clean.csv", "csv", "header");
-    ralewayReg = loadFont('/fonts/raleway-regular.ttf');  
-    ralewayMed = loadFont('/fonts/raleway-medium.ttf');  
+    ralewayReg = loadFont('/ProcessingFinalProject/fonts/raleway-regular.ttf');  
+    ralewayMed = loadFont('/ProcessingFinalProject/fonts/raleway-medium.ttf');  
     Particle;
     Company();
     Investor();
